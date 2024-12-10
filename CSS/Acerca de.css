@@ -1,0 +1,115 @@
+body{
+    background-image: url(../IMAGENES/background\ acerca\ de.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background: #060d27;
+    color: #fff;
+    padding-left: 30px;
+    margin: -8px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #050e25;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.style-header{
+    background: #031c40;
+    width: 10vw;
+    height: 60px;
+    margin: 0.5vh 10vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-header:hover{
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+.bar{
+    width: auto;
+    height: 40px;
+    background: #031c40;
+    border-bottom: 2px solid #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bar-item{
+    color: #ffffff;
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-item:hover{
+    box-shadow: 0px 0px 5px 0px #000000;
+
+}
+
+.line{
+    background: #287789;
+    letter-spacing:-3px;
+}
+
+.x{
+    background: #c53131;
+    margin-right: 10px;
+}
+
+.container-main{
+    background: #060d27;
+    color: #fff;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px #000000;
+
+}
+
+h2{
+    margin: 20px 15px;
+}
+
+p{
+    margin: 20px 15px;
+    text-align: justify;
+}
+img{
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
